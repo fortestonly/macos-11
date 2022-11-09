@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/fortestonly/macos-11#readme",
   "devDependencies": {
-    "@electron-forge/maker-dmg": "6.0.0-beta.54",
     "appdmg": "^0.6.4"
   }
 }
