@@ -16,8 +16,8 @@ jobs:
           NODE_ENV: ci
         shell: bash
         run: |
-          npm config set @coinspace:registry https://npm.pkg.github.com
-          npm config set "//npm.pkg.github.com/:_authToken" "${NPM_READ_TOKEN}"
+          #npm config set @coinspace:registry https://npm.pkg.github.com
+          #npm config set "//npm.pkg.github.com/:_authToken" "${NPM_READ_TOKEN}"
           npm ci
       - name: Build app
         shell: bash
