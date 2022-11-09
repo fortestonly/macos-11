@@ -22,5 +22,5 @@ jobs:
       - name: Build app
         shell: bash
         run: |
-          ls -lah electron/node_modules
+          ls -lah node_modules
           npm list --depth 2
