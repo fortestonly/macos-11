@@ -1,0 +1,22 @@
+{
+  "name": "macos-11",
+  "version": "1.0.0",
+  "description": "macos-11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortestonly/macos-11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortestonly/macos-11/issues"
+  },
+  "homepage": "https://github.com/fortestonly/macos-11#readme",
+  "dependencies": {
+    "appdmg": "^0.6.4"
+  }
+}
