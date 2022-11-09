@@ -11,6 +11,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: ls -lah node_modules
-      - run: npm list --depth 2
+      - name: Install Node.js dependencies
+        env:
+          NODE_ENV: ci
+        shell: bash
+        run: |
+          npm config set @coinspace:registry https://npm.pkg.github.com
+          npm config set "//npm.pkg.github.com/:_authToken" "${NPM_READ_TOKEN}"
+          npm ci
+      - name: Build app
+        shell: bash
+        run: |
+          ls -lah electron/node_modules
+          npm list --depth 2
