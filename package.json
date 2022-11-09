@@ -34,7 +34,6 @@
     "app-builder-lib": "^22.9.1",
     "appdmg": "^0.6.4",
     "ejs": "^3.1.6",
-    "electron": "^12.2.3",
     "electron-packager-languages": "^0.5.0"
   }
 }
